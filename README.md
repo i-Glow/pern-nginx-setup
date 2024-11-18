@@ -241,3 +241,18 @@ Test the renewal process
 ```bash
 sudo certbot renew --dry-run
 ```
+
+## Make pm2 startup on system reboot
+
+type the following command and follow the instructions given
+
+```bash
+pm2 startup
+```
+
+then save the current app list using
+
+```bash
+pm2 save
+```
+
